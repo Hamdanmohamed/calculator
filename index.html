@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <h1>calculator</h1>
+            <input type="text" id="display" >
+            
+            <div class="button">
+                <button onclick="cleardisplay()" class="btn1">c</button>
+            <div class="button">
+                <button onclick="calculator(7)" class="btn">7</button>
+                <button onclick="calculator(8)" class="btn">8</button>
+                <button onclick="calculator(9)" class="btn">9</button>
+                <button onclick="calculator('/')" class="btn">/</button>
+            </div>
+            <div class="button">
+                <button onclick="calculator(4)" class="btn">4</button>
+                <button onclick="calculator(5)" class="btn">5</button>
+                <button onclick="calculator(6)" class="btn">6</button>
+                <button onclick="calculator('*')" class="btn">*</button>
+            </div>
+            <div class="button">
+                <button onclick="calculator(1)" class="btn">1</button>
+                <button onclick="calculator(2)" class="btn">2</button>
+                <button onclick="calculator(3)" class="btn">3</button>
+                <button onclick="calculator('-')" class="btn">-</button>
+            </div>
+            <div class="button">
+                <button onclick="calculator('.')" class="btn">.</button>
+                <button onclick="calculator(0)" class="btn">0</button>
+                <button onclick="calculator('+')" class="btn">+</button>
+                <button onclick="result()" class="btn">=</button>
+            </div>
+         </div>
+              
+        </div>
+
+       
+       
+    </div>
+    <div class="main">
+        <h2>designed and developed by hamdan <i class="fa-regular fa-heart"></i></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
